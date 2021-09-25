@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <title>Not Animals by Maroon</title>
+  <style>
+    div{
+      color: azure;
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -13,30 +18,42 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </head>
-<body>
-<h1>Animals by Sai Harsha Vennela</h1>
+<body style="background-color: black;">
+<h1 style="color: whitesmoke;">Animals by Sai Harsha Vennela</h1>
 
 <div class="container">
 <div class="row">
-  <div class="col-sm-2">v</div>
-  <div class="col-sm-2">e</div>
-  <div class="col-sm-2">n</div>
-  <div class="col-sm-2">n</div>
-  <div class="col-sm-2">e</div>
-  <div class="col-sm-2">l</div>
+  <div class="col-sm-2">V</div>
+  <div class="col-sm-2">E</div>
+  <div class="col-sm-2">N</div>
+  <div class="col-sm-2">N</div>
+  <div class="col-sm-2">E</div>
+  <div class="col-sm-2">L</div>
 </div>
 <div class="row">
-  <div class="col-md">vulture</div>
-  <div class="col-md">echidna</div>
-  <div class="col-md">newts</div>
-  <div class="col-md">nyala</div>
-  <div class="col-md">elephant</div>
-  <div class="col-md">lion</div>
+  <div class="col-md">Vulture</div>
+  <div class="col-md">Echidna</div>
+  <div class="col-md">Newts</div>
+  <div class="col-md">Nyala</div>
+  <div class="col-md">Elephant</div>
+  <div class="col-md">Lion</div>
 </div>
 <p>The row with animal names breaks first as it is written in md (medium) of which the max 
   container width is of 720px. Since resize of the browser window can handle ≥768px in the grid 
   system when set to medium, So it breaks first compared to sm (small) as small can handle resize
   of window upto 576px. </p>
+
+  <div class="container">
+    <img src="elephant.jpg" class="img-fluid" alt="Elephant image" height="360" width="360">
+    <img src="lion.jpg" class="img-fluid" alt="Elephant image" height="360" width="360">
+    <img src="vulture.jpg" class="img-fluid" alt="Elephant image" height="360" width="360">
+
+  </div>
+  <div class="container">
+    <img src="elephant.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
+    <img src="lion.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
+    <img src="vulture.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
+  </div>
 </div>
 </body>
 </html>
