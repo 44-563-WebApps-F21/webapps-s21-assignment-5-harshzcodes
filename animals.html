@@ -3,8 +3,22 @@
 <head>
   <title>Not Animals by Maroon</title>
   <style>
-    div{
+    div,tr{
       color: azure;
+    }
+    th
+    {
+      background-color: Black;
+      color:black;
+    }
+    tr:nth-child(even)
+    {
+      background-color: rgb(44, 44, 44);
+      color:cornflowerblue;
+    }
+    td:hover
+    {
+      color: red;
     }
   </style>
   <meta charset="utf-8">
@@ -53,7 +67,56 @@
     <img src="elephant.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
     <img src="lion.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
     <img src="vulture.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
-  </div>
+  </div> <br>
+  <table class="table" style="border: 1px solid white;">
+    <caption style="color: bisque;font-family: monospace; ">Table of cars and cities.</caption>
+    <thead style="background-color:cornsilk;">
+      <tr>
+        <th scope="col"><b>#</b></th>
+        <th scope="col"><b>Animal</b></th>
+        <th scope="col"><b>City</b></th>
+        <th scope="col"><b>Car</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">V</td>
+        <td>Vulture</td>
+        <td>Vilnius</td>
+        <td>Volkswagen</td>
+      </tr>
+      <tr>
+        <td scope="row">E</td>
+        <td>Echidna</td>
+        <td>Essen</td>
+        <td>Evans</td>
+      </tr>
+      <tr>
+        <td scope="row">N</td>
+        <td>Newts</td>
+        <td>Nairobi</td>
+        <td>Neon</td>
+      </tr>
+      <tr>
+        <td scope="row">N</td>
+        <td>Nyala</td>
+        <td>Nanchang</td>
+        <td>Nexo</td>
+      </tr>
+      <tr>
+        <td scope="row">E</td>
+        <td>Elephant</td>
+        <td>Esenler</td>
+        <td>Econovan</td>
+      </tr>
+      <tr>
+        <td scope="row">L</td>
+        <td>Lion</td>
+        <td>London</td>
+        <td>Lamborghini</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 </body>
 </html>
