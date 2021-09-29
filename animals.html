@@ -3,6 +3,13 @@
 <head>
   <title>Not Animals by Maroon</title>
   <style>
+    p
+    {
+      color: black;
+    }
+    h5{
+      color:green;
+    }
     div,tr{
       color: azure;
     }
@@ -74,14 +81,14 @@
 
   <div class="container">
     <img src="elephant.jpg" class="img-fluid" alt="Elephant image" height="360" width="360">
-    <img src="lion.jpg" class="img-fluid" alt="Elephant image" height="360" width="360">
-    <img src="vulture.jpg" class="img-fluid" alt="Elephant image" height="360" width="360">
+    <img src="lion.jpg" class="img-fluid" alt="Lion image" height="360" width="360">
+    <img src="vulture.jpg" class="img-fluid" alt="Vulture image" height="360" width="360">
   </div>
   <br>
   <div class="container">
     <img src="elephant.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
-    <img src="lion.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
-    <img src="vulture.jpg" class="img-thumbnail" alt="Elephant image" height="360" width="360">
+    <img src="lion.jpg" class="img-thumbnail" alt="Lion image" height="360" width="360">
+    <img src="vulture.jpg" class="img-thumbnail" alt="Vulture image" height="360" width="360">
   </div> <br>
   <table class="table" style="border: 1px solid white;">
     <caption style="color: bisque;font-family: monospace; ">Table of cars and cities.</caption>
@@ -149,11 +156,10 @@
     </div>
   </div>
 
-
 </div>
 
-<div class="dropdown">
-  <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+<div class="dropdown" role="group">
+  <button class="btn btn-success dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
     Initial
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -181,8 +187,38 @@
   </div>
   <button class="btn btn-primary" type="submit" style="margin-bottom: 50px;">Submit</button>
 </form>
+<hr style="color: white;">
 
 
+<div class="card-group container">
+  <div class="card" style="width: 200px;">
+    <img src="elephant.jpg" class="card-img-top" alt="Elephant image" height="360" width="360">
+    <div class="card-body">
+      <h5 class="card-title">Elephant</h5>
+      <p class="card-text">THEY’RE THE WORLD’S LARGEST LAND ANIMAL <br>
+        The African elephant is the world's largest land mammal – with males on average measuring up to 3m high and weighing up to 6 tonnes.</p>
+      <a href="https://www.wwf.org.uk/learn/fascinating-facts/elephants" class="btn btn-primary">More...</a>
+    </div> 
+    <br>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="lion.jpg" class="card-img-top" alt="Lion image" height="360" width="360">
+    <div class="card-body">
+      <h5 class="card-title">Lion</h5>
+      <p class="card-text">1. NEARLY ALL WILD LIONS LIVE IN AFRICA, BUT ONE SMALL POPULATION EXISTS ELSEWHERE… <br>
+        Nearly all wild lions live in Africa, below the Sahara Desert, but one small population exists around Gir Forest National Park in western India. </p>
+      <a href="https://www.wwf.org.uk/learn/fascinating-facts/lions" class="btn btn-primary">More...</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="vulture.jpg" class="card-img-top" alt="Vulture image" height="360" width="360">
+    <div class="card-body">
+      <h5 class="card-title">Vulture</h5>
+      <p class="card-text">Vultures have relatively bare heads and often bare necks so that when they feed on rotting carcasses, bacteria and other parasites cannot burrow into thick feathers to cause infections. </p>
+      <a href="https://www.thespruce.com/fun-facts-about-vultures-385520" class="btn btn-primary">More...</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
